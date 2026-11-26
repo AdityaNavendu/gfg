@@ -63,7 +63,7 @@ Thus, Chef needs to take a minimum of two trial sessions.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-26T09:31:26.560Z  
+**Submitted:** 2026-11-26T09:29:38.295Z  
 
 ```c_cpp
 /*===============================================================*
@@ -268,10 +268,6 @@ bool isPerfectSquare(ll x){
 void solve(){
     int d,x,y;
     cin >> d >> x >> y;
-     if (x <= y) {
-            cout << 0 << endl;
-            return;
-        }
 
     int c=0;
 
