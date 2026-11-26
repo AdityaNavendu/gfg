@@ -63,7 +63,7 @@ Thus, Chef needs to take a minimum of two trial sessions.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-26T09:28:20.051Z  
+**Submitted:** 2026-11-26T09:29:14.904Z  
 
 ```c_cpp
 /*===============================================================*
@@ -270,21 +270,20 @@ void solve(){
     cin >> d >> x >> y;
 
     int c=0;
-    int a=x;
-    
-    while(x>y && y>0){
+
+    while(y>=0){
+        int p=x*(100-c*d)/100;
+
+        if(p<=y){
+            cout << c << endl;
+            return;
+        }
+
         c++;
         y--;
-
-        int p=a*(100-c*d)/100;
-        x=p;
     }
 
-    if(x<=y){
-        cout << c << endl;
-    }else{
-        cout << -1 << endl;
-    }
+    cout << -1 << endl;
 }
 
 
