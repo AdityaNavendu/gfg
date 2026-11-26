@@ -69,7 +69,7 @@ It can be proved that this is optimal.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-26T08:59:47.068Z  
+**Submitted:** 2026-11-26T09:00:51.045Z  
 
 ```c_cpp
 /*===============================================================*
