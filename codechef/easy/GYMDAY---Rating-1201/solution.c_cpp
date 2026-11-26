@@ -200,10 +200,6 @@ bool isPerfectSquare(ll x){
 void solve(){
     int d,x,y;
     cin >> d >> x >> y;
-     if (x <= y) {
-            cout << 0 << endl;
-            return;
-        }
 
     int c=0;
 
